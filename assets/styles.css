@@ -1,0 +1,55 @@
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#0f172a;background:#fff;line-height:1.65;font-size:16px}
+img,svg{max-width:100%;height:auto;display:block}
+a{color:#1f6feb;text-decoration:none}
+a:hover,a:focus{text-decoration:underline}
+.container{max-width:1120px;margin:0 auto;padding:0 20px}
+header.site{background:#fff;border-bottom:1px solid #e5e7eb;position:sticky;top:0;z-index:10}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:16px;flex-wrap:wrap}
+.nav .logo{height:40px;width:auto}
+.nav ul{list-style:none;display:flex;gap:18px;flex-wrap:wrap}
+.nav ul a{color:#0f172a;font-weight:600;font-size:15px}
+.btn{display:inline-block;background:#1f6feb;color:#fff;padding:12px 22px;border-radius:8px;font-weight:700;border:0;cursor:pointer;font-size:15px}
+.btn:hover{background:#0a3a7a;text-decoration:none;color:#fff}
+.btn.outline{background:transparent;color:#1f6feb;border:2px solid #1f6feb}
+.hero{padding:60px 0;background:linear-gradient(180deg,#f1f5fb 0%,#fff 100%)}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+h1{font-size:42px;line-height:1.15;margin-bottom:18px;color:#0a3a7a;font-weight:800}
+h2{font-size:30px;margin:36px 0 14px;color:#0a3a7a;line-height:1.25}
+h3{font-size:20px;margin:22px 0 10px;color:#0f172a}
+p{margin:10px 0}
+ul,ol{margin:10px 0 10px 22px}
+li{margin:6px 0}
+section{padding:48px 0}
+section.alt{background:#f8fafc}
+.lead{font-size:18px;color:#334155;margin:12px 0 24px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:22px}
+.card .icon{width:44px;height:44px;margin-bottom:10px}
+.breadcrumb{font-size:14px;color:#64748b;padding:14px 0}
+.breadcrumb a{color:#64748b}
+.faq details{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:14px 18px;margin:10px 0}
+.faq summary{cursor:pointer;font-weight:700;color:#0a3a7a;font-size:17px}
+.faq details[open] summary{margin-bottom:8px}
+footer.site{background:#0a3a7a;color:#e2e8f0;padding:46px 0 22px;margin-top:40px}
+footer.site a{color:#cbd5e1}
+.foot-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+.foot-grid h4{color:#fff;margin-bottom:10px;font-size:16px}
+.foot-grid ul{list-style:none;margin:0;padding:0}
+.foot-grid li{margin:6px 0;font-size:14px}
+.foot-bottom{border-top:1px solid #1e4a8a;margin-top:28px;padding-top:18px;font-size:13px;color:#cbd5e1;text-align:center}
+.cta{background:#0a3a7a;color:#fff;text-align:center;padding:48px 20px;border-radius:14px;margin:30px 0}
+.cta h2{color:#fff}
+.cta p{color:#e2e8f0}
+.cta .btn{background:#fff;color:#0a3a7a;margin-top:14px}
+.notice{background:#fff7ed;border:1px solid #fed7aa;color:#7c2d12;padding:14px 18px;border-radius:10px;margin:16px 0;font-size:14px}
+form .field{margin:12px 0}
+form label{display:block;font-weight:600;margin-bottom:6px;font-size:14px}
+form input,form textarea,form select{width:100%;padding:12px 14px;border:1px solid #cbd5e1;border-radius:8px;font:inherit}
+form textarea{min-height:120px;resize:vertical}
+@media (max-width:780px){
+ h1{font-size:32px}.hero-grid{grid-template-columns:1fr}
+ .grid{grid-template-columns:1fr}.foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:480px){.foot-grid{grid-template-columns:1fr}}

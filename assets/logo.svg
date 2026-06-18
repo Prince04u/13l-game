@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" role="img" aria-label="13lgame logo">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#1f6feb"/><stop offset="1" stop-color="#0a3a7a"/></linearGradient></defs>
+<rect x="2" y="6" width="48" height="48" rx="10" fill="url(#g)"/>
+<text x="26" y="40" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="22" fill="#fff">13</text>
+<text x="62" y="40" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="26" fill="#0f172a">13lgame</text>
+</svg>
